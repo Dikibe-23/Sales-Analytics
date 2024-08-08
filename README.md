@@ -2,6 +2,8 @@
 
 ## About the project
 The aim of this project is to help deduce key insights from the business data and suggest recommendations to help achieve improved business performance.
+![BlinkIT Sales Dashboard](https://github.com/user-attachments/assets/ae53a55b-fab3-41be-9854-e4210b95cde5)
+
 
 ## Table of Contents
 1. [Problem Statement.](#problem-statement)
