@@ -34,8 +34,25 @@ A customer has requested a comprehensive analysis of their sales performance, cu
 5.	<b>Dashboarding:</b> This puts together steps 7, 8 and 9 in our table of content. Here we created visuals and reports to help visualize these KPI’s which we calculated in step 4 using DAX.
 
 ### Sql codes
- ```
+ ```CREATE DATABASE sales
+UPDATE BlinkIT_sales SET ItemFatContent = 'Regular' WHERE ItemFatContent = 'Regualr'
+UPDATE BlinkIT_sales SET ItemFatContent = 'Low Fat' WHERE ItemFatContent = 'low fat'
+UPDATE BlinkIT_sales SET 
 ```
+### Quick data analysis in SQL
+```
+ SELECT Outlet_Type, SUM(Sales)  as sum_of_sales_by_outlettypes,
+sum(sales) * 100.0 / (SELECT SUM(Sales) from BlinkIT_sales) as outlettype_pct_sales from BlinkIT_sales GROUP BY outlet_type
+
+To select top sales in the data.
+SELECT TOP 5 Item_Type, Sales FROM BlinkIT_sales ORDER BY Sales DESC
+
+Analyzing Total Sales by Item_type ordered in a descending order
+SELECT Item_Type, SUM(Sales) as item_sales from BlinkIT_sales GROUP BY Item_Type ORDER BY item_sales DESC;
+
+```
+### Power BI
+
 ## Insights.
 Based on our analysis, we have been able to deduce the following from the data.
 - The business has so far generated a total of 1,20€Million.
