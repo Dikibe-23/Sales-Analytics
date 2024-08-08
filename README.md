@@ -1,7 +1,9 @@
 # Sales-Analytics
 
 ## About the project
-The aim of this project is to help deduce key insights from the business data and suggest recommendations to help achieve improved business performance.
+The aim of this project is to help deduce key insights from the business data and suggest recommendations to help achieve an improved business performance.
+
+![PowerBI Blinkit Sales Report](blinkit-sales-report.PNG)
 ![BlinkIT Sales Dashboard](https://github.com/user-attachments/assets/ae53a55b-fab3-41be-9854-e4210b95cde5)
 
 
